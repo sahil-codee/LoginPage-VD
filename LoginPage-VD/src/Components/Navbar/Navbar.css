@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+
+.Navbar {
+    padding: 0 40px;
+    border-bottom: 1px solid black;
+}
+
+.navbar-brand {
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 800;
+    color: #023047 !important; 
+}
+
+.navbar-brand>span {
+    color: #fba03a;
+}
+
+.buttonNav {
+    color: white;
+    width: 200px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.navbarStart {
+    background-color: #023047;
+}
+
+.navbarStart:focus {
+    background-color: #023047;
+}
+
+.navbarLogin {
+    background-color: #fb8500;
+    border: none;
+}
+
+.navbarLogin:focus {
+    background-color: #fb8500;
+}
+
+@media screen and (max-width: 768px) {
+    .navbarButtons {
+        display: none;
+    }
+}

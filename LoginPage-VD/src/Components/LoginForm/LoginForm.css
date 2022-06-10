@@ -1,0 +1,138 @@
+.LoginForm {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15%;
+}
+
+.Heading {
+  font-weight: 700;
+  color: #023047;
+  margin-bottom: 2px;
+}
+
+.SubHeading {
+  font-size: 1rem;
+  color: #727e83;
+  margin-bottom: 10px;
+}
+
+.formElement {
+  margin: 5px 0;
+}
+
+.form-control {
+  height: 50px;
+}
+
+.login {
+  background-color: #023047;
+  color: white;
+  width: 100%;
+}
+
+.subform {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  gap: 5px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.contain {
+  position: relative;
+  cursor: pointer;
+}
+
+.contain input {
+  position: relative;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  border-radius: 2px;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+
+.contain:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.contain input:checked ~ .checkmark {
+  background-color: #023047;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.contain input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.contain .checkmark:after {
+  left: 8px;
+  top: 6px;
+  width: 4px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.checkLabel {
+  height: 20px;
+  line-height: 20px;
+  color: #757a7e;
+  cursor: pointer;
+  font-size: 0.75rem;
+  width: auto;
+}
+
+.form {
+  margin: 10px 0;
+}
+
+.form > * {
+  padding: 0;
+}
+
+.forgotContainer {
+  height: 20px;
+}
+
+.forgot {
+  line-height: 20px;
+  height: 20px;
+  text-decoration: none;
+  color: #757a7e;
+  font-size: 0.75rem;
+}
+
+@media screen and (max-width: 768px) {
+  .LoginForm {
+    margin: 0 20px;
+  }
+}

@@ -1,0 +1,19 @@
+.bottom {
+  height: calc(100vh - 20px);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.Left {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.SideImage {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../../assets/image.png");
+  background-position: center;
+}
