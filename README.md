@@ -1,3 +1,17 @@
+DESKTOP VIEW :
+
+  <img width="100%" align="center" src="./assets/DesktopView.png"></img>
+  
+
+MOBILE VIEW :  
+
+
+<img height="auto" width="100%" align="center" src="./assets/MobileView.png"></img>
+  
+
+
+
+
 <h1>Built With</h1>
 
 <p>This project was built using these technologies.</p>
